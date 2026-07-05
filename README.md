@@ -6,13 +6,11 @@ Document the setup process required for the internship portfolio task.
 
 ## Tools Used
 
-Cursor IDE
-
-GitHub
-
-Git
-
-Built-in AI features in Cursor
+- Cursor IDE
+- Claude Code Extension
+- Codex Extension
+- Git
+- GitHub
 
 ## Steps Completed
 
