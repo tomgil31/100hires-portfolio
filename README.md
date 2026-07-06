@@ -1,55 +1,35 @@
-# AI-Powered SEO Content Production Research
+# AI-Powered SEO Research Assistant
 
 ## Overview
 
-This repository contains research on how leading SEO professionals use Artificial Intelligence (AI) to improve SEO content production.
+An AI-powered Python application that:
 
-The project was created as part of the **100Hires Junior Growth Marketing Specialist** hiring process.
+- Researches SEO experts
+- Searches YouTube
+- Downloads transcripts
+- Performs transcript analysis
+- Uses Google Gemini to generate AI summaries
+- Saves professional Markdown reports
 
----
+## Technologies
 
-## Project Objectives
+- Python
+- Google Gemini API
+- YouTube Data API v3
+- Markdown
+- dotenv
 
-- Research 10 leading AI SEO practitioners.
-- Analyze their LinkedIn content.
-- Study YouTube videos and transcripts.
-- Identify repeatable AI-assisted SEO workflows.
-- Build a practical AI SEO playbook.
+## Features
 
----
+- Automated research workflow
+- AI-generated summaries
+- Keyword analysis
+- Markdown reporting
 
-## Repository Structure
+## Installation
 
-```
-research/
-├── experts/
-├── linkedin-posts/
-├── youtube-transcripts/
-├── notes/
-├── playbook/
-├── README.md
-└── sources.md
+pip install -r requirements.txt
 
-scripts/
-assets/
-```
+## Run
 
----
-
-## Research Methodology
-
-This research focuses on SEO professionals who actively implement AI-assisted content production in real-world environments.
-
-Information is collected from:
-
-- LinkedIn
-- YouTube
-- Blogs
-- Podcasts
-- Conference talks
-
----
-
-## Expected Outcome
-
-A structured knowledge base documenting modern AI-powered SEO workflows and best practices.
+python scripts/main.py

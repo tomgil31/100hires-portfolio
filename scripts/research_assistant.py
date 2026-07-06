@@ -1,14 +1,30 @@
+"""
+research_assistant.py
+
+Purpose:
+Create a research template for an SEO expert.
+
+Author: Thomas Peterjohnjoseph
+Project: 100Hires AI-Powered SEO Research
+"""
+
+from pathlib import Path
 from datetime import datetime
 
-print("=" * 50)
-print("100Hires Research Assistant")
-print("=" * 50)
 
-expert = input("Enter expert name: ")
+def research_expert(expert_name):
+    """
+    Create a markdown research template for an expert.
+    """
 
-filename = expert.lower().replace(" ", "-") + ".md"
+    filename = expert_name.lower().replace(" ", "-") + ".md"
 
-content = f"""# {expert}
+    output_folder = Path("research/experts")
+    output_folder.mkdir(parents=True, exist_ok=True)
+
+    output_file = output_folder / filename
+
+    content = f"""# {expert_name}
 
 ## Research Date
 {datetime.today().strftime("%Y-%m-%d")}
@@ -34,7 +50,23 @@ content = f"""# {expert}
 (To be completed)
 """
 
-with open(f"research/experts/{filename}", "w", encoding="utf-8") as f:
-    f.write(content)
+    with open(output_file, "w", encoding="utf-8") as file:
+        file.write(content)
 
-print(f"\nSaved successfully to research/experts/{filename}")
+    print(f"Research file created: {output_file}")
+
+    return str(output_file)
+
+
+def main():
+    print("=" * 60)
+    print("100Hires Research Assistant")
+    print("=" * 60)
+
+    expert = input("Enter expert name: ")
+
+    research_expert(expert)
+
+
+if __name__ == "__main__":
+    main()
