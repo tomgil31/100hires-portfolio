@@ -1,39 +1,55 @@
-# 100Hires Portfolio Setup
+# AI-Powered SEO Content Production Research
 
-## Objective
+## Overview
 
-Document the setup process required for the internship portfolio task.
+This repository contains research on how leading SEO professionals use Artificial Intelligence (AI) to improve SEO content production.
 
-## Tools Used
+The project was created as part of the **100Hires Junior Growth Marketing Specialist** hiring process.
 
-- Cursor IDE
-- Claude Code Extension
-- Codex Extension
-- Git
-- GitHub
+---
 
-## Steps Completed
+## Project Objectives
 
-Installed and opened Cursor IDE.
+- Research 10 leading AI SEO practitioners.
+- Analyze their LinkedIn content.
+- Study YouTube videos and transcripts.
+- Identify repeatable AI-assisted SEO workflows.
+- Build a practical AI SEO playbook.
 
-Created a project folder named 100hires-portfolio.
+---
 
-Opened the folder in Cursor.
+## Repository Structure
 
-Created this README.md file.
+```
+research/
+├── experts/
+├── linkedin-posts/
+├── youtube-transcripts/
+├── notes/
+├── playbook/
+├── README.md
+└── sources.md
 
-Prepared the repository for GitHub submission.
+scripts/
+assets/
+```
 
-## Challenges Faced
+---
 
-Initially I was unfamiliar with the updated Cursor interface and locating the correct editor window. After exploring the menus and options, I successfully opened the project workspace and completed the setup.
+## Research Methodology
 
-## What I Learned
+This research focuses on SEO professionals who actively implement AI-assisted content production in real-world environments.
 
-How to work with Cursor IDE.
+Information is collected from:
 
-How to create and organize a project workspace.
+- LinkedIn
+- YouTube
+- Blogs
+- Podcasts
+- Conference talks
 
-Basic GitHub repository preparation.
+---
 
-How AI-assisted development environments are used in practice.
+## Expected Outcome
+
+A structured knowledge base documenting modern AI-powered SEO workflows and best practices.
